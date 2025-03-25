@@ -1,0 +1,99 @@
+/* Signup.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(7, 6, 7, 0.57);
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 40%;
+  min-width: 500px;
+  padding: 30px;
+  background: rgb(74, 140, 239);
+  box-shadow: 0 4px 12px rgba(25, 177, 211, 0.57);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stepsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.stepLine {
+  flex: 1;
+  height: 4px;
+  background: #d9d9d9;
+  transition: background 0.3s ease-in-out;
+  margin: 0 5px;
+}
+
+.stepLine.active {
+  background: rgba(10, 1, 15, 0.57);
+}
+
+.stepCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.stepCircle.active {
+  background: black;
+}
+
+.content {
+  margin-top: 20px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.errorText {
+  color: rgba(65, 1, 1, 0.93);
+  font-size: 19px;
+  margin-top: 4px;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.input {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}

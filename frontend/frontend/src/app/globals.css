@@ -1,0 +1,53 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: white;
+}
+
+/* Override Ant Design styles for dark theme */
+.ant-layout {
+  background: #141414;
+}
+
+.ant-card-head-title {
+  color: white;
+}
+
+.ant-input {
+  background-color: #2d2d2da7;
+  color: white;
+  border-color: #444;
+}
+
+.ant-input::placeholder {
+  color: #888;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+}
+
+.ant-menu-dark {
+  background: #001529;
+}
+
+.ant-menu-item-selected {
+  background-color: #1890ff !important;
+}
+
+.ant-dropdown-menu-dark {
+  background-color: #1f1f1f;
+}
+
+.ant-divider {
+  border-color: #303030;
+}
+
